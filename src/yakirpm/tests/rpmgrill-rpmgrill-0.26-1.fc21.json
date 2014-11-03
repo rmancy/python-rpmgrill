@@ -1,0 +1,112 @@
+{
+   "package" : {
+      "name" : "rpmgrill",
+      "release" : "1.fc21",
+      "version" : "0.26"
+   },
+   "results" : {
+      "timestamp" : 1414467900,
+      "tool" : "rpmgrill",
+      "version" : "0.26"
+   },
+   "tests" : [
+      {
+         "module" : "VirusCheck",
+         "order" : 2,
+         "results" : [],
+         "run_time" : 9,
+         "status" : "completed"
+      },
+      {
+         "module" : "SpecFileSanity",
+         "order" : 5,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      },
+      {
+         "module" : "SpecFileEncoding",
+         "order" : 10,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      },
+      {
+         "module" : "LibGather",
+         "order" : 12,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      },
+      {
+         "module" : "ElfChecks",
+         "order" : 14,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      },
+      {
+         "module" : "Patches",
+         "order" : 15,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      },
+      {
+         "module" : "SecurityPolicy",
+         "order" : 16,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      },
+      {
+         "module" : "Multilib",
+         "order" : 20,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      },
+      {
+         "module" : "Manifest",
+         "order" : 30,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      },
+      {
+         "module" : "ManPages",
+         "order" : 45,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      },
+      {
+         "module" : "RpmScripts",
+         "order" : 90,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      },
+      {
+         "module" : "Setxid",
+         "order" : 91,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      },
+      {
+         "module" : "BuildLog",
+         "order" : 92,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      },
+      {
+         "module" : "DesktopLint",
+         "order" : 93,
+         "results" : [],
+         "run_time" : 0,
+         "status" : "completed"
+      }
+   ]
+}
